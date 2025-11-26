@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Button test</title>
+    <style>
+        /* force visible text and background */
+        button {
+            background-color: #007bff; /* blue background */
+            color: #fff;               /* white text */
+            border: none;
+            padding: 8px 12px;
+        }
+        /* or make text black on white background */
+        /* button { background: #fff; color: #000; } */
+    </style>
+</head>
+<body>
+    <button type="button">Click Me!</button>
+</body>
+</html>
